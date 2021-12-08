@@ -1,0 +1,178 @@
+{"intents":[
+    {"tag": "saludos",
+        "patterns":["Hola", "hola", "que onda", "como estas", "Como Estas", "alguien ahi?", "buenos dias", "buenas"],
+        "responses": ["Hola, como estas?", "Hay dias en lo que simplemente existo", "Hola, como te encuentras hoy?"],
+        "context": [""]
+    },
+    {"tag": "despedida",
+        "patterns":["Adios", "adios", "nos vemos", "buena platica, bye", "bye", "hasta luego", "bai", "buenas noches"],
+        "responses": ["nos vemos!", "Que te vaya bien!", "Hasta la vista"],
+        "context": [""]
+    },
+    {"tag": "noanswer",
+        "patterns":[],
+        "responses": ["Lo sinto, pero no entiendo tu pregunta", "Necesito más informacion", "No te estoy entendiendo"],
+        "context": [""]
+    },
+    {"tag": "frase william",
+        "patterns":["que pinesas de lo bueno y lo malo?"],
+        "responses": ["No existe nada bueno ni malo; es el pensamiento humano el que lo hace parecer asi\\. \n \\-William Shakespeare"],
+        "context":[""]
+    },
+    {"tag":"biografia mileto",
+        "patterns":["quien era tales de mileto?"],
+        "responses": ["Tales de Mileto fue de los primeros pensadores en tener registros, ya que se cree que vivio entre 624\\-546 a\\.C\\. en Mileto, en la que hoy conocemos como Turquia\\. Aunque no se tenga ninguno de sus escritos, si es que existen, se le considera un gran pialar debido a sus menciones por parte de Aristoteles y Diógenes\\."],
+        "context":[""]
+    },
+    {"tag":"frase mileto",
+        "patterns":["de que esta compuesto la vida?"],
+        "responses": ["Mmm debe ser algo esencial para la vida, algo a partir de lo que pueda formarse todo, algo que se transforma\\. Todo es agua\\. \n \\-Tales de Mileto"],
+        "context":[""]
+    },
+    {"tag": "frase lao tse",
+        "patterns":["eres inteligente?", "que dijo lao tse?"],
+        "responses": ["Conocer al otro requiere inteligencia; conocerse a uno mismo, sabiduría\\. \n \\-Lao Tsé"],
+        "context":[""]
+    },
+    {"tag": "biografia lao",
+        "patterns":["quien fue lao tse?"],
+        "responses": ["Se sabe muy poco de Lao Tsé\\. Tanto que se ha convertido en una figura casi mística y se a sugertido que sus obras no son suyas, sino una compilación de citas de distintos eruditos, pero aun asi, se cree que su verdadero nombre era Lao Tan, que pertenecia a la crote Zhou en china\\. La leyenda cuenta que el maestro pensador abandonó la corte y viajo al oeste en busca de soledad\\. Cuando casi llega a su destino un guardia lo reconocio y le pidio que plasmara su sabiduria, por lo que escribio Tao Te Ching para el y se fue, para despues nunca más saber de el\\."],
+        "context":[""]
+    },
+    {"tag":"biografia pitagoras",
+        "patterns":["quien fue pitagoras?"],
+        "responses": ["Se sabe poco de Pitágoras\\(claro, ademas de su famoso teorema en matemáticas\\), ya que no dejo escritos. Sin embargo, se cree que nacio en la isla de Samos, frente a la costa de la actual Turquia y que asistio a la escuela de Mileto\\."],
+        "context":[""]
+    },
+    {"tag": "frase pitagoras",
+        "patterns":["sabes una frase de pitagoras?", "que opinas de la razon?"],
+        "responses": ["La razón es inmortal, todo lo demás es perecedero\\. \n \\-Pitágoras"],
+        "context":[""]
+    },
+    {"tag": "biografia siddharta",
+        "patterns":["quien fue siddharta gautama?", "quien fue siddharta?"],
+        "responses": ["Todo lo que se sabe de Siddharta Gautama procede de las biografías escritas por sus seguidores, las cuales difieren en numerosos detalles\\. Lo que si es seguro es que nacio en Lumbini, el Nepal actual en 560 a\\.C\\. Su padre posiblemente era lider de un clan, por lo que tuvo una vida lujosa y de privilegios\\. Abandono a su esposa e hijos en busqueda de una senda espiritual y descubrio el camino intermedio entre la indulgencia de los sentidos y el ascetismo\\.\\.\\. ahora se le dice: fue por cigarros\\."],
+        "context":[""]
+    },
+    {"tag": "frase siddharta",
+        "patterns":["que dijo siddharta?", "en que crees?", "como se si te creo?", "no te creo", "te creo"],
+        "responses": ["No creas en nada, sin importat dónde lo hayas leído ni quien lo haya dicho, a no ser que esté de acuerdo con tu propia razón\\. \n \\-Siddharta Gautama"],
+        "context":[""]
+    },
+    {"tag":"biografia confucio",
+        "patterns":["quien fue confucio?"],
+        "responses": ["Según la tradición, Confucio nació el año 551 a\\.C\\. en Qufu, en el estado Lu\\(China\\)\\. Su nombre original era Kong Qiu, y se ganó el titulo de  Kong Fuzi\\. Llego a ser administrador de la corte Lu, pero al ver que hacían caso omiso de sus consejos, abandonó el cargo para dedicarse a enseñar\\."],
+        "context":[""]
+    },
+    {"tag": "frase confuncio",
+        "patterns":["que dijo confuncio?"],
+        "responses": ["Lo que se sabe, se sabe, y lo que no se sabe, no se sabe\\. En eso consiste la verdadera sabiduría\\. \n \\-Confuncio"],
+        "context":[""]
+    },
+    {"tag":"frase democrito",
+        "patterns":["que dijo democrito?", "que es el hombre?"],
+        "responses": ["El hombre es un microcosmos del universo\\. \n \\-Demócrito"],
+        "context":[""]
+    },
+    {"tag":"biografia democrito",
+        "patterns":["quien fue democrito?"],
+        "responses": ["No se sabe mucho de Demócrito, pero decía que nada existe aparte de los atomos y el vacio, que es la primera teoría atómica de todas\\."],
+        "context":[""]
+    },
+    {"tag":"biografia socrates",
+        "patterns":["quien fue socrates?"],
+        "responses": ["Sócrates nació en Atenas el año 469 a\\.C\\. Era un hombre miu visible en Atenas, donde solía participar junto a otros ciudadanos en corversaciones filosóficas con las que logró reunir a numerosos alumnos jóvenes\\. Acabó siendo acusado de corromper las mentes de los jóvenes antenienses y fue condenado a muerte\\. Pese a que se le ofreció el exiliarse, aceptó el veredicto y se suicidó\\. Lo acusaron de lo que ahora Amlo acusa a los videojuegos\\."],
+        "context":[""]
+    },
+    {"tag":"frase socrates",
+        "patterns":["que dijo socrates?", "vale la pena vivir?", "que opinas de la vida?"],
+        "responses": ["La única vida que merece ser vivida es una buena vida\\. \n \\-Sócrates"],
+        "context":[""]
+    },
+    {"tag":"frase socrates 2",
+        "patterns":["que sabes?"],
+        "responses": ["Sólo sé que no sé nada\\. \n \\-Sócrates"],
+        "context":[""]
+    },
+    {"tag": "frase platon",
+        "patterns":["que dijo platon?", "que es el aprendizaje?"],
+        "responses": ["Lo que llamamos aprendizaje no es más que recuerdo\\. \n \\-Platón"],
+        "context":[""]
+    },
+    {"tag": "biografia platon",
+        "patterns":["quien fue platon?"],
+        "responses": ["Pese a la gran cantidad de escritos atribuidos a Platón, se sabe muy poco\\. Nació en Atena el año 427 a\\.C\\. y le bautizaron como Aristocles, pero le decían Platón\\. Era discípulo de Sócrates; se dice que cuando condenaron a su maestro, se descepciono con Atenas y abandonó la ciudad\\. Viajo muchos años y cuando regreso a su ciudad natal fundó la escuela Academia\\(origen de la palabra académico\\)\\."],
+        "context":[""]
+    },
+    {"tag": "frase aristoteles",
+        "patterns":["que dijo aristoteles?", "que motiva al hombre?"],
+        "responses": ["Todas las acciones se deben a una de estas siete causas: casualidad, naturaleza, compulsión, costumbre, razonamiento, ira o apetito\\. \n \\-Aristóteles"],
+        "context":[""]
+    },
+    {"tag": "biografia aristoteles",
+        "patterns":["quien fue aristoteles?"],
+        "responses": ["Aristóteles nació en Estagira, en la zona noreste de la Grecia actual el 384 a\\.C\\. Vivio una vida de lujos gracias aque su padre era médico de una familia real\\. A los 17 años entro a la Academia de Platón, en la cual pasó 20 años como alumno y profesor\\. Cuando Platón fallecio se marchó de Atenas y se dirigió a Jonia\\. Entonces le nombraron tutor en la corte macedonia, en la que le enseño al joven Alejandro Magno\\."],
+        "context":[""]
+    },
+    {"tag":"frase zenon",
+        "patterns":["que es la felicidad?", "que dijo zenon?"],
+        "responses": ["La felicidad consiste en el buen fluir de la vida\\. \n \\-Zenón de Citio"],
+        "context":[""]
+    },
+    {"tag":"frase agustin",
+        "patterns":["que dijo san agustin?", "todo es culpa de dios", "piensas que dios es malo?", "si dios es bueno, por que deja que pasen cosas malas?"],
+        "responses": ["Los seres humanos son seres racionales y para poder ser racionales, necesitan libre albedrío\\. Esto significa que deben poder escoger entre bien y mal\\. Por lo tanto, pueden actuar bien y mal\\. Dios no es la causa del mal\\. \n \\-San Agustín de Hipona"],
+        "context":[""]
+    },
+    {"tag":"biografia san agustin",
+        "patterns":["quien fue san agustin?", "quien fue aurelio agustin?"],
+        "responses": ["Aurelio Agustín nació el año 354 d\\.C\\. en Tagaste, una pqueña provincia en el norte de África, hijo de madre cristiana y padre pagano\\. Durante un tiempo practico el maniqueísmo,religión que entiende el bien y el mal como fuerzas duales que rigen el universo, pero la influencia de un arzobispo de Milán hizo que se sintiera atraído por el cristianismo, tras sufrir una crisis espiritual se convirtió y se dedico a escribri obras cristianas\\."],
+        "context":[""]
+    },
+    {"tag": "frase agustin 2",
+        "patterns":["por que el hombre es malo?"],
+        "responses": ["Lo mismo que hacía a Adán capz de obedecer a Dios le hizo capaz de pecar. -San Agustín de Hipona"],
+        "context":[""]
+    },
+    {"tag": "biografia boecio",
+        "patterns":["quien fue boecio?"],
+        "responses": ["Anicio Boecio era un aristócrata romano cristiano que nació cuando el imperio romano ya se staba desintegrando en 480 d\\.C\\. y dedicó toda su vida a traducir y a comentar textos griegos, sobre todo las obras de Aristóteles sobre lógica, hasta que fue nombrado asesor principar del rey ostrogodo Teodorico\\. Unos años después, Boecio fue víctima de intrigas cortesanas; se le acusó falsamente de traición y fue condenamo a muerte\\.\\.\\. Recuerden Bros before hoes\\."],
+        "context":[""]
+    },
+    {"tag":"frase boecio",
+        "patterns":["que dijo boecio?", "como sabes algo?", "que conoces?"],
+        "responses": ["Todo se conoce, no por sí mismo, sino por la capacidad de quien conoce\\. \n \\-Boecio"],
+        "context":[""]
+    },
+    {"tag":"frase descartes",
+        "patterns":["que eres?"],
+        "responses": ["Pero, ¿qué soy? Un ser pensante\\.\n  \\-René Descartes"],
+        "context":[""]
+    },
+    {"tag": "frase maquiavelo",
+        "patterns":["que dijo maquiavelo?", "que dijo nicolas de maquiavelo?"],
+        "responses": ["¡Cuán difícil es para un pueblo acostumbrado a un príncipe preservar su libertad! \n \\-Nicolás Maquiavelo", "El fin justifica los medios. -Nicolás Maquiavelo"],
+        "context":[""]
+    },
+    {"tag":"biografia maquiavelo",
+        "patterns":["quien fue nicolas maquiavelo?", "quien fue maquiavelo?"],
+        "responses": ["Nicolás Maquiavelo nació en Florencia en 1496\\. Maquiavelo fue un político y diplomático de Florencia\\. Tras su retiro forzoso debido al regreso de los Medici a Florencia, se dedicó a diversas actividades literarias, ademas de intentar reintegrarse a la política\\. Cuando lo logro, le encargaron escribir la historia de Florencia y dos años despues falleció sin haber conseguido volver a la vida pública\\."],
+        "context":[""]
+    },
+    {"tag":"frase descartes 2",
+        "patterns":["no se que pensar", "no estoy seguro", "que dijo descartes?", "que dijo rene descartes?"],
+        "responses": ["Es necesario dudar de todo y tanto como sea posible al menos una vez en la vida\\. \n \\-René Descartes"],
+        "context":[""]
+    },
+    {"tag":"frase descartes 3",
+        "patterns":["existes?", "eres real?"],
+        "responses": ["Pienso, luego existo\\. \\-René Descartes"],
+        "context":[""]
+    },
+    {"tag":"biografia descartes",
+        "patterns":["quien fue rene descartes?", "quien fue descartes?"],
+        "responses": ["René Descartes nació cerca de Tours\\(Francia\\) el año 1596\\. Durante muchos años se dedico al estudio de las matemáticas, pero interumpió su formación durante cuatro años por la guerra de los Treinta Años\\. Fue entonces cuando sintió la llamada de la filosofía\\. Esto lo llevo a tner platicas con la reina de Suecia Cristina, pero el clima frío le jugo encontra y murio de neunomía\\."],
+        "context":[""]
+    }
+]
+}
